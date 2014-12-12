@@ -215,3 +215,9 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# vNext
+bower_components/
+node_modules/
+artifacts/
+*.sln.ide/
