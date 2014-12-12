@@ -19,14 +19,13 @@
         "Microsoft.Framework.Logging": "1.0.0-beta1",
         "Microsoft.Framework.Logging.Console": "1.0.0-beta1",
         "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta1",
-        //"Xunit.KRunner":  "1.0.0-*"
+        "HelloWorld.Core": ""
     },
     "commands": {
         /* Change the port number when you are self hosting this application */
         "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000",
         "gen": "Microsoft.Framework.CodeGeneration",
-        "ef": "EntityFramework.Commands",
-        //"test": "Xunit.KRunner"
+        "ef": "EntityFramework.Commands"
     },
     "frameworks": {
         "aspnet50": { },
